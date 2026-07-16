@@ -41,10 +41,10 @@ Previous Requisits:
 ### 1. BRANCH MAVEN
 
  **Member 2:**
-- [ ] Create **new Maven Project** and integrate moodle files (vorlage, pom, site) under the package **at.campus02.bsd**
+- [x] Create **new Maven Project** and integrate moodle files (vorlage, pom, site) under the package **at.campus02.bsd**
 *Note: make sure that project is created in the* **root folder** 
-- [ ] Create the first version of a **.gitignore** to make sure only relevant files are saved
-- [ ] **Push** branch maven
+- [x] Create the first version of a **.gitignore** to make sure only relevant files are saved
+- [x] **Push** branch maven
 
 
 **Member 1:**
