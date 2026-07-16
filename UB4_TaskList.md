@@ -48,7 +48,7 @@ Previous Requisits:
 
 
 **Member 1:**
-- [ ]**Pull request** - review changes + **Merge** to main if everything is correct.
+- [ ] **Pull request** - review changes + **Merge** to main if everything is correct.
 
 ### 2. BRANCH README
 
@@ -74,7 +74,7 @@ Previous Requisits:
 
 **Member 1 // or 2:**
 - [ ] **Add Git Repository** address (into pom.xml) + other necesary Maven dependencies
-- [ ]**Test** the conficurations with the **command line** 
+- [ ] **Test** the conficurations with the **command line** 
 *Note: IntelliJ uses its own integrated Maven - it can work differently depending on the version. It will be taken into account* **your own Maven version** *not IntelliJ and this can also be configuratd through IntelliJ*
 
 **Member 2 // or 1:**
