@@ -58,7 +58,7 @@ Previous Requisits:
 - [x] **Push** branch readme
 
 **Member 2:**
-- [ ] **Pull request** - review changes + **Merge** to main if everything is correct.
+- [x] **Pull request** - review changes + **Merge** to main if everything is correct.
 
 
 ### 3. BRANCH MAVEN_DETAIL
