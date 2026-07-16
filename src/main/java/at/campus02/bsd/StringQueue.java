@@ -1,4 +1,4 @@
-
+package at.campus02.bsd; // 1st mistake
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,10 +11,9 @@ import java.util.NoSuchElementException;
 public class StringQueue implements IQueue {
 
   private List<String> elements = new ArrayList<String>();
-  private int maxSize = 5;
+  private final int maxSize = 5; // has to be final
 
-  public StringQueue(int maxsize) {
-    maxSize = maxSize;
+  public StringQueue() {
   }
 
   @Override
@@ -28,10 +27,11 @@ public class StringQueue implements IQueue {
   }
 
   @Override
-  public String poll() {
+  public String pull() { // corrected Pulls -> typo! (not anymore poll)
     String element = peek();
 
-    if (elements.size() == 0) {
+    if (elements.size() != 0) {
+     // mistake! if its not 0, if it there is something
       elements.remove(0);
     }
 
@@ -40,8 +40,8 @@ public class StringQueue implements IQueue {
 
   @Override
   public String remove() {
-    String element = poll();
-    element = "";
+    String element = pull();
+    //element = ""; it actualizes it again
     if (element == null)
       throw new NoSuchElementException("there's no element any more");
 
@@ -68,4 +68,4 @@ public class StringQueue implements IQueue {
     return element;
   }
 
-}s
+}

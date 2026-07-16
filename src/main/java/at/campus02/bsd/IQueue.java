@@ -1,3 +1,4 @@
+package at.campus02.bsd; // 2nd mistake
 
 // fastly written (not really nice) comments you should adapt
 public interface IQueue {
@@ -17,10 +18,10 @@ public interface IQueue {
 
   //returns + del 1st element; null if nothing in there
    //
-  public abstract String poll();
+  public abstract String pull();
 
   /* 
-  same as poll, if there is nothing in there error NoSuchElementException
+  same as pull, if there is nothing in there error NoSuchElementException
    */
   public abstract String remove();
 
