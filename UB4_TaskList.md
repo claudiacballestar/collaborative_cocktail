@@ -83,7 +83,7 @@ Previous Requisits:
 ### 4. BRANCH BUG_HUNT
 
 **Member 2:**
-- [ ] **Find and correct** the 3 errors in the given code
+- [x] **Find and correct** the 3 errors in the given code
 - **Push** the branch
 
 **Member 1:**
