@@ -67,14 +67,14 @@ Previous Requisits:
 **Member 1: pull request**
 
 **Member 1 + Member 2:**
-- [ ] Work in the pom.xml - update your own informations in the file
+- [x] Work in the pom.xml - update your own informations in the file
 - push
 
 *Question: which one to push?*
 
 **Member 1 // or 2:**
-- [ ] **Add Git Repository** address (into pom.xml) + other necesary Maven dependencies
-- [ ] **Test** the conficurations with the **command line** 
+- [x] **Add Git Repository** address (into pom.xml) + other necesary Maven dependencies
+- [x] **Test** the conficurations with the **command line** 
 *Note: IntelliJ uses its own integrated Maven - it can work differently depending on the version. It will be taken into account* **your own Maven version** *not IntelliJ and this can also be configuratd through IntelliJ*
 
 **Member 2 // or 1:**
