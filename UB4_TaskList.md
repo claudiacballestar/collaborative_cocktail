@@ -48,14 +48,14 @@ Previous Requisits:
 
 
 **Member 1:**
-- [ ] **Pull request** - review changes + **Merge** to main if everything is correct.
+- [x] **Pull request** - review changes + **Merge** to main if everything is correct.
 
 ### 2. BRANCH README
 
 **Member 1:**
-- [ ] Create a **README** writing: Project name + name of the members + relevant informations that a README should have
-- [ ] **Add a Task List** in the readme
-- [ ] **Push** branch readme
+- [x] Create a **README** writing: Project name + name of the members + relevant informations that a README should have
+- [x] **Add a Task List** in the readme
+- [x] **Push** branch readme
 
 **Member 2:**
 - [ ] **Pull request** - review changes + **Merge** to main if everything is correct.
