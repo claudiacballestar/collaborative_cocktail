@@ -48,7 +48,7 @@ Previous Requisits:
 
 
 **Member 1:**
-- [ ]**Pull request** - review changes + **Merge** to main if everything is correct.
+- [ ] **Pull request** - review changes + **Merge** to main if everything is correct.
 
 ### 2. BRANCH README
 
