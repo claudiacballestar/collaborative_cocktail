@@ -78,7 +78,7 @@ Previous Requisits:
 *Note: IntelliJ uses its own integrated Maven - it can work differently depending on the version. It will be taken into account* **your own Maven version** *not IntelliJ and this can also be configuratd through IntelliJ*
 
 **Member 2 // or 1:**
-- [ ]**Pull request** + **Merge** if everything is correct.
+- [x] **Pull request** + **Merge** if everything is correct.
 
 ### 4. BRANCH BUG_HUNT
 
