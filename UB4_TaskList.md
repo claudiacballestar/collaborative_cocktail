@@ -92,8 +92,8 @@ Previous Requisits:
 ### 5. BRANCH DRINK
 
 **Member 1:**
-- [ ] **Create** Class *Cocktail* that implements Interface *Drink*
-- [ ] **Create** your preferred Objects *Liquids* with Constructor with parameters *Name* (string) or *Liquid* list
+- [x] **Create** Class *Cocktail* that implements Interface *Drink*
+- [x] **Create** your preferred Objects *Liquids* with Constructor with parameters *Name* (string) or *Liquid* list
 - **Push** the branch
 
 **Member 2:**
