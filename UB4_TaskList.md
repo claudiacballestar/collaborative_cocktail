@@ -97,24 +97,24 @@ Previous Requisits:
 - **Push** the branch
 
 **Member 2:**
-- [ ] **Pull request** + **Merge** if everything is correct.
+- [x] **Pull request** + **Merge** if everything is correct.
 
 ### 6. BRANCH QUEUE
 *Note: each of the members implements their methods on separate branches*
 
 **Member 2:**
-- [ ] **Create** the Class *DrinkQueue* - this adds all existing Drinks into a Queue (class *Cocktail* that implement the Interface *Drink*) *Note: without errors!*
+- [x] **Create** the Class *DrinkQueue* - this adds all existing Drinks into a Queue (class *Cocktail* that implement the Interface *Drink*) *Note: without errors!*
 - **Push** the new changes
 
 **Member 1:**
 1. **Pull request**
 
 **Member 1 + Member 2:**
-- [ ] **Create branch queue_surname** - and **create 3 methods** for the selected cocktail
+- [x] **Create branch queue_surname** - and **create 3 methods** for the selected cocktail
 **Push** the new changes
 
 **Member 1 or 2:**
-- [ ]**Pull request + Merge** if everything is correct.
+- []**Pull request + Merge** if everything is correct.
 
 ### 7. BRANCH JAVADOC
 
