@@ -9,10 +9,12 @@ public class Cocktail extends Drink {
         super(name);
     }
 
-    public Cocktail(List<Liquid> liquids) {
-        super("Unnamed Cocktail");
+    public Cocktail(String name, List<Liquid> liquids) {
+        super(name);
         this.liquids = liquids;
     }
+
+    public void setName(String name){ this.name = name;}
 
     public List<Liquid> getLiquids() {
         return liquids;
