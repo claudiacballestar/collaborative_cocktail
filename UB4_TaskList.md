@@ -87,7 +87,7 @@ Previous Requisits:
 - **Push** the branch
 
 **Member 1:**
-- [x]**Pull request** +  **Merge** if everything is correct.
+- [x] **Pull request** +  **Merge** if everything is correct.
 
 ### 5. BRANCH DRINK
 
