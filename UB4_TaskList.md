@@ -114,16 +114,16 @@ Previous Requisits:
 **Push** the new changes
 
 **Member 1 or 2:**
-- []**Pull request + Merge** if everything is correct.
+- [x] **Pull request + Merge** if everything is correct.
 
 ### 7. BRANCH JAVADOC
 
 **Member 1:**
-- [ ] Create branch javadoc
-- [ ] **Create JavaDoc comments** for all existing classes (old and new)
+- [x] Create branch javadoc
+- [x] **Create JavaDoc comments** for all existing classes (old and new)
 *Note: check [following link](https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html) and [tutorial](4 https://www.baeldung.com/javadoc)*
 *introduce @param, @return, @throws and attributes*
-- [ ] **Push** new changes
+- [x] **Push** new changes
 
 **Member 2:**
 - [ ]**Pull request + Merge** if everything is correct.
@@ -134,9 +134,9 @@ Previous Requisits:
 - [ ] Create branch test
 
 **Member 1 + Member 2:**
-- [ ] **Create Test Classes** for old and new Classes and reach 100% coverage. Divide the work. Check the right location in the Maven Project
+- [x] **Create Test Classes** for old and new Classes and reach 100% coverage. Divide the work. Check the right location in the Maven Project
 *Note: name schema for the classes - ClassNameTest (i.e. DrinkQueue.java --> Test: DrinkQueueTest.java)*
-- [ ]**Test through Command Line** mvn test - without errors
+- [x ]**Test through Command Line** mvn test - **without errors** (it was with errors)
 
 **Member 1 or 2:**
 - [ ]**Pull request + Merge** if everything is correct.
