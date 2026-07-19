@@ -23,10 +23,3 @@ check security.conf.template for configuration
 - (Track list)[UB4_TaskList.md]
 
 ### collaborative project repository to test how to collaborate in github
-
-### Cocktails added:
-- [ ] to be done
-1.
-2.
-3. 
-4. 
