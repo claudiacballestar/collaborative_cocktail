@@ -4,21 +4,35 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+/**
+ * <p> Console application to modify a queue of cocktails. There are some predefined
+ * Drinks -> Liquid -> List of Liquid -> Cocktail
+ * - show current cocktails
+ * - add a cocktail
+ * - remove a cocktail
+ * - show next cocktail in the queue
+ * </p>
+ */
 public class Main {
 
+    /**
+     * Constant scanner to be used by the user throw console
+     */
     public static final Scanner SCANNER = new Scanner(System.in);
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 
         Liquid coffee = new Liquid("Coffee", 0.05, 0);
-        Liquid vodka = new Liquid("Vodka", 0.25, 37);
+        Liquid vodka = new Liquid("Vodka", 0.25, 0.37);
         Liquid orangeJuice = new Liquid("Orange Juice", 0.1, 0);
-        Liquid whiteWine = new Liquid("White Whine", 0.4, 10);
+        Liquid whiteWine = new Liquid("White Whine", 0.4, 0.10);
         Liquid gin = new Liquid("Gin", 0.25, 0.40);
         Liquid tonic = new Liquid("Spritz", 0.7, 0);
-        Liquid coffeeLiquour = new Liquid("Coffee Licour", 0.3, 20);
+        Liquid coffeeLiquour = new Liquid("Coffee Licour", 0.3, 0.20);
 
         List<Liquid> aguaValencia = List.of(vodka, orangeJuice, whiteWine, gin, tonic);
         List<Liquid> rebuj = List.of(tonic, whiteWine);
@@ -36,13 +50,6 @@ public class Main {
         DrinkQueue queueValencia = new DrinkQueue();
         List<Cocktail> vlc = new ArrayList<>(List.of(aguaDeValencia, rebujito));
         List<Cocktail> offer =  new ArrayList<>(List.of(aguaDeValencia, rebujito, esprMartini, ginTonic));
-
-//        System.out.println("Current possible drinks: ");
-//        System.out.println("1.- " + aguaDeValencia.getName());
-//        System.out.println("2.- " + rebujito.getName());
-//        System.out.println("3.- " + esprMartini.getName());
-//        System.out.println("4.- " + ginTonic.getName());
-
         queueValencia.setCocktailQueue(vlc);
         System.out.println("Current cocktail queue: ");
         for(Cocktail cocktail: vlc){
